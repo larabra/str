@@ -15,7 +15,7 @@
             "email": "ennio@enniosousa.com.br"
         }
     ],
-    "version": "v1.0.0",
+    "version": "v1.0.1",
     "minimum-stability": "dev",
     "autoload": {
         "psr-0": {
@@ -24,5 +24,12 @@
         "files": [
             "src/helpers.php"
         ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Larabra\\Str\\LarabraStrServiceProvider"
+            ]
+        }
     }
 }
