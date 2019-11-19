@@ -1,0 +1,28 @@
+{
+    "name": "larabra/str",
+    "description": "Laravel Illuminate\\Support\\Str extended",
+    "keywords": ["php", "metaphone"],
+    "type": "package",
+    "require": {
+        "php": ">=5.4.0",
+        "larabra/metaphone": "^1.0",
+        "illuminate/support": ">=4.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ennio Sousa",
+            "email": "ennio@enniosousa.com.br"
+        }
+    ],
+    "version": "v1.0.0",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "Larabra\\Str\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
